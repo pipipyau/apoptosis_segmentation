@@ -3,7 +3,7 @@ services:
   processing-service:
     build: .
     shm_size: '5gb'
-    container_name: btcv_segmentation
+    container_name: apoptosis_segmentation
     command: >
       sh -c "cd /home &&
             pip3 install notebook &&

@@ -5,3 +5,6 @@ data/.Trash-0/*
 data/.ipynb_checkpoints/*
 *.ckpt
 data/dataset/*
+data/history/*
+data/best_loss.pth
+data/best_model/lightning_logs/*
