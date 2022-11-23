@@ -1,0 +1,21 @@
+version: "3.9"
+services:
+  processing-service:
+    build: .
+    shm_size: '5gb'
+    container_name: btcv_segmentation
+    command: >
+      sh -c "cd /home &&
+            pip3 install notebook &&
+            jupyter notebook --allow-root --ip="0.0.0.0""
+    volumes:
+      - "./data:/home"
+    ports:
+      - "8000:8888"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [ gpu ]

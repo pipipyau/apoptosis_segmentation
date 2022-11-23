@@ -1,0 +1,7 @@
+data/dataset/*/*gz
+data/dataset/*/*csv
+__pycache__/
+data/.Trash-0/*
+data/.ipynb_checkpoints/*
+*.ckpt
+data/dataset/*
