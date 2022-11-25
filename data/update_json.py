@@ -19,7 +19,7 @@ for i, img_tr in enumerate(glob.glob(os.path.join(new_img_tr_path, '*jpg'))):
             "image": os.path.join('imagesTr', img_tr.split('\\')[-1]),
             "label":os.path.join('labelsTr', img_tr.split('\\')[-1]).replace('.0', '.3')
                 }
-    if i < 29:
+    if i < 125:
         data['training'].append(new_data_dict)
     else:
         data['validation'].append(new_data_dict)
