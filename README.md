@@ -8,21 +8,12 @@ The pipeline for the presentation of a new dataset of cells.
 The results are published in the article:
 
 @article{trizna2023brightfield,
-
   title={Brightfield vs Fluorescent Staining Dataset--A Test Bed Image Set for Machine Learning based Virtual Staining},
-  
   author={Trizna, Elena Y and Sinitca, Aleksandr M and Lyanova, Asya I and Baidamshina, Diana R and Zelenikhin, Pavel V and Kaplun, Dmitrii I and Kayumov, Airat R and Bogachev, Mikhail I},
-  
   journal={Scientific Data},
-  
   volume={10},
-  
   number={1},
-  
   pages={160},
-  
   year={2023},
-  
   publisher={Nature Publishing Group UK London}
-  
 }
